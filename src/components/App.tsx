@@ -2,16 +2,16 @@ import './App.scss';
 import { Header } from './Header/Header';
 import { About } from './About/About';
 import { Form } from './Form/Form';
-import { Footer } from './Footer/Footer';
+import { Contact } from './Contact/Contact';
 
 function App() {
 	return (
 		<>
-			<main>
+			<main className='main'>
 				<Header />
 				<About />
 				<Form />
-				<Footer />
+				<Contact />
 			</main>
 		</>
 	);
