@@ -1,9 +1,10 @@
-.main {
+.boxApp {
 	max-width: 1200px;
 	width: 100%;
 	margin: auto auto;
 	display: grid;
-	grid-template-areas: 'header' 'about' 'form' 'footer';
+	grid-template-areas: 'header' 'about' 'courses' 'form' 'footer';
 	grid-template-columns: 1fr;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	min-height: 100vh;
 }

@@ -1,0 +1,13 @@
+.header {
+	padding: 2rem;
+	height: 100px;
+	border-bottom: 2px solid #ff6347;
+
+	&__logo {
+		font-size: 50px;
+	}
+
+	&__logo_first {
+		color: #ff6347;
+	}
+}

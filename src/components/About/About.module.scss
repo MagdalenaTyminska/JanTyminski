@@ -1,0 +1,15 @@
+.about {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 2rem;
+	align-items: center;
+	padding: 2rem;
+
+	&__photo {
+		width: 100%;
+		height: auto;
+		border-radius: 50%;
+		justify-self: center;
+		object-fit: cover;
+	}
+}

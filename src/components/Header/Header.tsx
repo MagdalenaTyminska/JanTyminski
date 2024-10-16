@@ -1,12 +1,14 @@
+import scss from './Header.module.scss';
+
 const Header = () => {
 	return (
-		<header>
-			<nav>
-				<a href='#'>Jan Tymiński</a>
-				<a href='#about'>O mnie</a>
-				<a href='#newsletter'>Newsletter</a>
-				<a href='#contact'>Kontakt</a>
-			</nav>
+		<header className={scss.header}>
+			<div>
+				<h1 className={scss.header__logo}>
+					<span className={scss.header__logo_first}>Jan</span>
+					<span className={scss.header__logo_second}>Tymiński</span>
+				</h1>
+			</div>
 		</header>
 	);
 };

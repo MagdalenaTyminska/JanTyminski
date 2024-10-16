@@ -1,17 +1,19 @@
-import './App.scss';
+import scss from './App.module.scss';
 import { Header } from './Header/Header';
 import { About } from './About/About';
+import { Courses } from './Courses/Courses';
 import { Form } from './Form/Form';
-import { Contact } from './Contact/Contact';
+import { Footer } from './Footer/Footer';
 
 function App() {
 	return (
 		<>
-			<main className='main'>
+			<main className={scss.boxApp}>
 				<Header />
 				<About />
+				<Courses />
 				<Form />
-				<Contact />
+				<Footer />
 			</main>
 		</>
 	);
