@@ -1,13 +1,41 @@
 .header {
-	padding: 2rem;
-	height: 100px;
+	padding: 1rem 2rem;
+	height: auto;
 	border-bottom: 2px solid #ff6347;
 
 	&__logo {
-		font-size: 50px;
+		font-size: 32px;
 	}
 
 	&__logo_first {
 		color: #ff6347;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.header {
+		padding: 2rem 2rem 0 2rem;
+
+		&__logo {
+			font-size: 50px;
+		}
+	}
+}
+@media screen and (min-width: 1200px) {
+	.header {
+		display: flex;
+		align-items: flex-end;
+
+		&__logo {
+			font-size: 32px;
+			margin: 0;
+			line-height: 1;
+			position: relative;
+			bottom: -15px;
+		}
+
+		&__logo_first {
+			color: #ff6347;
+		}
 	}
 }
